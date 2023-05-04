@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Case Converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="container">
+    <div class="min-vh-100 d-flex justify-content-center align-items-center">
+        <div>
+            <h1 class="title">Case Converter</h1>
+
+            <div class="mb-3">
+                <textarea id="textarea" class="form-control" rows="8"></textarea>
+            </div>
+            <div class="row g-2">
+                <div class="col-auto">
+                    <button id="upper-case" class="btn btn-neumorphism text-primary text-uppercase">upper case</button>
+                </div>
+                <div class="col-auto">
+                    <button id="lower-case" class="btn btn-neumorphism text-secondary">lower case</button>
+                </div>
+                <div class="col-auto">
+                    <button id="proper-case" class="btn btn-neumorphism text-danger">Proper Case</button>
+                </div>
+                <div class="col-auto">
+                    <button id="sentence-case" class="btn btn-neumorphism text-success">Sentence case</button>
+                </div>
+                <div class="col-auto">
+                    <button id="save-text-file" class="btn btn-neumorphism text-dark">Save text file</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
